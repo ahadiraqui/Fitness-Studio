@@ -5,6 +5,8 @@ import "./Header.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/OIP.jpeg";
 
+
+
 const Header = () => {
 	const navRef = useRef();
 	const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -29,11 +31,11 @@ const Header = () => {
 					<NavLink to="/services">Services</NavLink>
 					{dropdownVisible && (
 						<div className="dropdown-content">
-							<NavLink to="/yoga">Yoga</NavLink>
-							<NavLink to="/pilates">Pilates</NavLink>
-							<NavLink to="/meditation">Meditation</NavLink>
-							<NavLink to="/nutrition">Nutrition</NavLink>
-							<NavLink to="/zumba">Zumba</NavLink>
+							<NavLink to="/services/yoga">Yoga</NavLink>
+							<NavLink to="/services/pilates/Pilates">Pilates</NavLink>
+							<NavLink to="/services/meditation/Meditation">Meditation</NavLink>
+							<NavLink to="/services/nutrition">Nutrition</NavLink>
+							<NavLink to="/services/zumba/Zumba">Zumba</NavLink>
 						</div>
 					)}
 				</div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import "./service.css";
-import Cover from "../../assets/images/meditationcover.png";
-import Img from "../../assets/images/meditationleaningdownI.webp";
-import Img2 from "../../assets/images/MeditationHappyPose2.webp";
-import Img3 from "../../assets/images/MeditaitonBurmesePose3.webp";
-import Img4 from "../../assets/images/MeditationLayingdown4.webp";
-import Img5 from "../../assets/images/Meditationa_quick_tip5.webp";
-import Img6 from "../../assets/images/MedidationHalfLotus6.webp";
+import Cover from "../../../assets/services-assets/images/pilatescover.png";
+import Img from "../../../assets/services-assets/images/meditationleaningdownI.webp";
+import Img2 from "../../../assets/services-assets/images/MeditationHappyPose2.webp";
+import Img3 from "../../../assets/services-assets/images/MeditaitonBurmesePose3.webp";
+import Img4 from "../../../assets/services-assets/images/MeditationLayingdown4.webp";
+import Img5 from "../../../assets/services-assets/images/Meditationa_quick_tip5.webp";
+import Img6 from "../../../assets/services-assets/images/MedidationHalfLotus6.webp";
 
 import {  Box, Button, Card, CardActions, CardContent, CardHeader, CardMedia, Container, Grid, Paper, Typography } from '@mui/material';
 
@@ -51,7 +51,7 @@ const tiers = [
 ];
 
 const Meditation = () => {
-  
+
   return (
     <div>
       <div className='all-container'>
@@ -63,11 +63,11 @@ const Meditation = () => {
          <div className='paraDesign1'>
          <p>It changes and you start feeling good once again; </p>
          <p> the good and bad feelings come like waves.</p>
-         <p>Transform your emotions with this beautiful guided meditation.</p> 
+         <p>Transform your emotions with this beautiful guided meditation.</p>
           </div>
           <div style={{marginTop:"2vh",display:"flex",flexDirection:"row"}}>
           <Button  variant="contained" sx={{backgroundColor:"gray",marginRight:"15px","&:hover": { backgroundColor: "black" }}}> Get Started </Button>
-          <Button  variant="contained" sx={{backgroundColor:"gray","&:hover": { backgroundColor: "black" }}}> Learn More.. </Button> 
+          <Button  variant="contained" sx={{backgroundColor:"gray","&:hover": { backgroundColor: "black" }}}> Learn More.. </Button>
           </div>
          </div>
         {<img className='heroimg'
@@ -75,7 +75,7 @@ const Meditation = () => {
           alt='herobanner'
           style={{ width:"40vw", position:'absolute',right:'0%'}}
         /> }
-       
+
       </div>
       <div className='Description banner' style={{ marginTop: "15vh",padding:"20px"}}>
   <h2 className='textDesign1' style={{ display: 'flex', flexWrap: 'wrap' }}>Medidation Classes</h2>
@@ -126,7 +126,7 @@ const Meditation = () => {
     <div className='choose-us banner' style={{ paddingBottom: "5vh" }}>
   <Box sx={{ flexGrow: 1 }}>
     <Grid container spacing={2} columns={16}  >
-      <Grid item xs={14} sm={8}> 
+      <Grid item xs={14} sm={8}>
         <div style={{ paddingLeft: "6vw"}}>
           <img className='choose-us-img'
             src='https://images.unsplash.com/photo-1602192509154-0b900ee1f851?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80'
@@ -182,9 +182,9 @@ const Meditation = () => {
           display: 'inline-block',
           verticalAlign: 'middle',
           marginLeft: '5px',
-          width: '10vw', 
-          height: '2px', 
-          backgroundColor: '#595959', 
+          width: '10vw',
+          height: '2px',
+          backgroundColor: '#595959',
           marginBottom:"9px",
         }}></span></div>
      <div className='coursecard' style={{padding:"0 10vw"}}>
@@ -203,7 +203,7 @@ const Meditation = () => {
         </Typography>
         <Typography variant="body2" color="text.secondary">
         This is a sitting position for meditation that supports your back. It can be done while
-         leaning back against a wall. You can cross your legs or extend them out in front of you, 
+         leaning back against a wall. You can cross your legs or extend them out in front of you,
          whichever you feel is most comfortable.
         </Typography>
       </CardContent>
@@ -230,8 +230,8 @@ const Meditation = () => {
         Happy Pose
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        simplest sitting positions for meditation. Remember how much you liked sitting on the floor 
-        as a child cross-legged? This is precisely the same. All you need to take care of is your back 
+        simplest sitting positions for meditation. Remember how much you liked sitting on the floor
+        as a child cross-legged? This is precisely the same. All you need to take care of is your back
         being straight. Your hands can rest anywhere on your lap.
         </Typography>
       </CardContent>
@@ -255,12 +255,12 @@ const Meditation = () => {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-        Burmese Pose 
+        Burmese Pose
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        This is just another variation of sitting cross-legged meditation pose. All you need 
+        This is just another variation of sitting cross-legged meditation pose. All you need
         to do is bring the heel of your left foot towards your right thigh, in a way that it
-         should be touching your thigh, and your right foot should lie gently on the left foot. 
+         should be touching your thigh, and your right foot should lie gently on the left foot.
         </Typography>
       </CardContent>
       <div style={{ textAlign: "center", marginTop: "auto", marginBottom: "20px" }}>
@@ -290,7 +290,7 @@ const Meditation = () => {
         Laying down
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        There are no specific instructions to perform this meditation posture. All you have to 
+        There are no specific instructions to perform this meditation posture. All you have to
         do is lay down on a surface making sure your back is straight.
         </Typography>
       </CardContent>
@@ -317,8 +317,8 @@ const Meditation = () => {
         A Quick Tip
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        You can either rest your feet on the ground and join your hands near your chest or 
-        keep one foot on the ground and the other on the thigh of the opposite leg, making 
+        You can either rest your feet on the ground and join your hands near your chest or
+        keep one foot on the ground and the other on the thigh of the opposite leg, making
         a triangle-like shape and joining your hand above your head. These meditation
          positions will stretch your body and relax any tension from your muscles.
         </Typography>
@@ -346,8 +346,8 @@ const Meditation = () => {
         Half Lotus
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        This is one of the meditation postures that requires extra focus. This pose is 
-        suited for people who want to prepare themselves for deep meditation practice. 
+        This is one of the meditation postures that requires extra focus. This pose is
+        suited for people who want to prepare themselves for deep meditation practice.
         This pose is almost similar to the quarter lotus pose.
         </Typography>
       </CardContent>
@@ -405,7 +405,7 @@ const Meditation = () => {
                     /mo
                   </Typography>
                 </Box>
-                
+
                   {tier.description.map((line) => (
                     <Typography
                       component="li"
@@ -416,13 +416,13 @@ const Meditation = () => {
                       {line}
                     </Typography>
                   ))}
-               
+
               </CardContent>
               <div style={{ textAlign: "center", marginTop: "auto", marginBottom: "20px" }}>
           <Button  sx={{ backgroundColor: "gray", "&:hover": { backgroundColor: "black" } }}fullWidth variant={tier.buttonVariant}>
                   {tier.buttonText}
           </Button>
-      
+
             </div>
 
             </Card>
@@ -436,3 +436,4 @@ const Meditation = () => {
 };
 
 export default Meditation;
+

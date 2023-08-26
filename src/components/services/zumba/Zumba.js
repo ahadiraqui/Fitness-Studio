@@ -1,13 +1,12 @@
 import React from "react";
 import "./service.css";
-import Cover from "../../../assets/services-assets/images/zumbacover.png";
+import Cover from "../../../assets/services-assets/images/pilatescover.png";
 import Img from "../../../assets/services-assets/images/meditationleaningdownI.webp";
 import Img2 from "../../../assets/services-assets/images/MeditationHappyPose2.webp";
-import Img3 from "../../assets/images/MeditaitonBurmesePose3.webp";
-import Img4 from "../../assets/images/MeditationLayingdown4.webp";
-import Img5 from "../../assets/images/Meditationa_quick_tip5.webp";
-import Img6 from "../../assets/images/MedidationHalfLotus6.webp";
-
+import Img3 from "../../../assets/services-assets/images/MeditaitonBurmesePose3.webp";
+import Img4 from "../../../assets/services-assets/images/MeditationLayingdown4.webp";
+import Img5 from "../../../assets/services-assets/images/Meditationa_quick_tip5.webp";
+import Img6 from "../../../assets/services-assets/images/MedidationHalfLotus6.webp";
 import {
 	Box,
 	Button,

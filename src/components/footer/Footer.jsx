@@ -92,7 +92,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div style={{ textAlign: "center" }}>
-				<p>All Right Reserved@2023</p>
+				<p>Copyright ©️ Abhilasha. All Right Reserved@2023</p>
 			</div>
 		</footer>
 	);

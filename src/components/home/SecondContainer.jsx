@@ -88,7 +88,7 @@ const SecondContainer = () => {
 			id="home_second_container"
 			className={isVisible ? "visible" : ""}
 		>
-			<h1 style={{ textAlign: "center" }}>Classes offered</h1>
+			<h1>Classes offered</h1>
 			<Slider {...carouselSettings1}>
 				<div className="carousel-card">
 					<img src={yoga} />
